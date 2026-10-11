@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaveSync</title>
+<style>
+  :root { --bg: #ffffff; --text: #1d2129; --muted: #5b6472; --accent: #3a6fe0; --card: #f4f6fa; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14161b; --text: #e6e8ec; --muted: #8b93a1; --accent: #5b9bff; --card: #1c2027; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); font-size: 1.1rem; margin-top: 0; }
+  .card { background: var(--card); border-radius: 10px; padding: 16px 20px; margin: 24px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>SaveSync</h1>
+  <p class="lead">Backup automático de saves de jogos de PC no Google Drive.</p>
+
+  <div class="card">
+    <p>O SaveSync é um programa pessoal para Windows que:</p>
+    <ul>
+      <li>detecta os jogos instalados no computador e onde cada um guarda o save;</li>
+      <li>envia uma cópia dos arquivos de save para uma pasta <b>SaveSync</b> no Google Drive do próprio usuário;</li>
+      <li>permite restaurar esses saves em outro computador.</li>
+    </ul>
+  </div>
+
+  <p>O acesso ao Google Drive usa a permissão <code>drive.file</code>: o programa só consegue ver e alterar os
+     arquivos que ele mesmo criou. Nenhum outro arquivo do seu Drive é acessado.</p>
+
+  <p><a href="privacidade.html">Política de Privacidade</a></p>
+
+  <footer>SaveSync — projeto pessoal, sem fins comerciais.</footer>
+</main>
+</body>
+</html>
