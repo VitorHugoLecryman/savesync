@@ -1,0 +1,11 @@
+.venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+assets/*.ico
+Instalador/
+assets/*.bmp
+client_secret_*.json
+credentials.json
